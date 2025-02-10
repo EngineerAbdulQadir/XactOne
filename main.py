@@ -214,9 +214,6 @@ with st.sidebar:
         </div>
     """, unsafe_allow_html=True)
 
-# --- Main Container ---
-st.markdown('<div class="container">', unsafe_allow_html=True)
-
 # --- Header Section ---
 st.markdown("""
     <div class="header">
