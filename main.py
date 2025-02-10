@@ -13,10 +13,7 @@ genai.configure(api_key="AIzaSyALmE5GLBYqPFTWOJq-cy4tr2MRPXG12Ac")
 
 # Model configuration
 MODEL_MAPPING = {
-    "xact-1.5-pro": "gemini-1.5-pro",
-    "xact-1.5-flash": "gemini-1.5-flash",
-    "xact-2.0-flash": "gemini-2.0-flash",
-    "xact-2.0-flash-exp": "gemini-2.0-flash-exp"
+    "XAI SURGE 0.1": "gemini-2.0-flash-exp"
 }
 
 # Custom AI Icon (Base64 Encoded)
@@ -213,7 +210,7 @@ with st.sidebar:
             </p>
         </div>
     """, unsafe_allow_html=True)
-
+    
 # --- Header Section ---
 st.markdown("""
     <div class="header">
@@ -314,7 +311,7 @@ st.markdown("""
         <div style="height: 2px; background: linear-gradient(90deg, var(--primary), var(--secondary)); margin: 1rem auto; width: 40%;"></div>
         <p style="font-size: 0.9rem;">
             Made with ❤️ by Engineer Abdul Qadir<br>
-            <span style="font-size: 0.8rem;">Version 2.0.0 | Xactrix AI Engine</span>
+            <span style="font-size: 0.8rem;">Version 0.1 | Xactrix AI Engine</span>
         </p>
     </div>
 """, unsafe_allow_html=True)
